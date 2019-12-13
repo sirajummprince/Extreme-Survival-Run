@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Mouse Follow - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\User\AppData\Local\Temp\RSP9F6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Mouse Follow.pdb" /debug /machine:I386 /out:"Debug/Mouse Follow.exe" /pdbtype:sept 
+".\Debug\Mouse Follow.obj"
+.\Debug\iMain.obj
+]
+Creating command line "link.exe @C:\Users\User\AppData\Local\Temp\RSP9F6.tmp"
+<h3>Output Window</h3>
+Linking...
+iMain.obj : error LNK2005: "void __cdecl iDraw(void)" (?iDraw@@YAXXZ) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iMouseMove(int,int)" (?iMouseMove@@YAXHH@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iMouse(int,int,int,int)" (?iMouse@@YAXHHHH@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iKeyboard(unsigned char)" (?iKeyboard@@YAXE@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iSpecialKeyboard(unsigned char)" (?iSpecialKeyboard@@YAXE@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: _main already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "int __cdecl iSetTimer(int,void (__cdecl*)(void))" (?iSetTimer@@YAHHP6AXXZ@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iPauseTimer(int)" (?iPauseTimer@@YAXH@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iResumeTimer(int)" (?iResumeTimer@@YAXH@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iShowBMP(int,int,char * const)" (?iShowBMP@@YAXHHQAD@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iGetPixelColor(int,int,int * const)" (?iGetPixelColor@@YAXHHQAH@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iText(double,double,char *,void *)" (?iText@@YAXNNPADPAX@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iPoint(double,double,int)" (?iPoint@@YAXNNH@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iLine(double,double,double,double)" (?iLine@@YAXNNNN@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iFilledPolygon(double * const,double * const,int)" (?iFilledPolygon@@YAXQAN0H@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iPolygon(double * const,double * const,int)" (?iPolygon@@YAXQAN0H@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iRectangle(double,double,double,double)" (?iRectangle@@YAXNNNN@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iFilledRectangle(double,double,double,double)" (?iFilledRectangle@@YAXNNNN@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iFilledCircle(double,double,double,int)" (?iFilledCircle@@YAXNNNH@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iCircle(double,double,double,int)" (?iCircle@@YAXNNNH@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iEllipse(double,double,double,double,int)" (?iEllipse@@YAXNNNNH@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iFilledEllipse(double,double,double,double,int)" (?iFilledEllipse@@YAXNNNNH@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iSetColor(double,double,double)" (?iSetColor@@YAXNNN@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iDelay(int)" (?iDelay@@YAXH@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iClear(void)" (?iClear@@YAXXZ) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl displayFF(void)" (?displayFF@@YAXXZ) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl animFF(void)" (?animFF@@YAXXZ) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl keyboardHandler1FF(unsigned char,int,int)" (?keyboardHandler1FF@@YAXEHH@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl keyboardHandler2FF(int,int,int)" (?keyboardHandler2FF@@YAXHHH@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl mouseMoveHandlerFF(int,int)" (?mouseMoveHandlerFF@@YAXHH@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl mouseHandlerFF(int,int,int,int)" (?mouseHandlerFF@@YAXHHHH@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void __cdecl iInitialize(int,int,char *)" (?iInitialize@@YAXHHPAD@Z) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "int iAnimCount" (?iAnimCount@@3HA) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "void (__cdecl** iAnimFunction)(void)" (?iAnimFunction@@3PAP6AXXZA) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "int ifft" (?ifft@@3HA) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "int iMouseY" (?iMouseY@@3HA) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "int iMouseX" (?iMouseX@@3HA) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "int * iAnimDelays" (?iAnimDelays@@3PAHA) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "int iScreenWidth" (?iScreenWidth@@3HA) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "int * iAnimPause" (?iAnimPause@@3PAHA) already defined in Mouse Follow.obj
+iMain.obj : error LNK2005: "int iScreenHeight" (?iScreenHeight@@3HA) already defined in Mouse Follow.obj
+Debug/Mouse Follow.exe : fatal error LNK1169: one or more multiply defined symbols found
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+Mouse Follow.exe - 42 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
